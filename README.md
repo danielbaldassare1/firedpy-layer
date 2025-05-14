@@ -1,10 +1,10 @@
-# FireDPy
+# firedpy-layer
 
-FireDPy is a Python-based tool for analyzing global fire data. It processes fire event data from GeoPackage files, creates a global grid of fire frequency and burned area, and applies a land cover mask to exclude urban areas and croplands from the analysis.
+firedpy-layer is a Python-based tool for analyzing global fire data. It processes fire event data from GeoPackage files, creates a global grid of fire frequency and burned area, and applies a land cover mask to exclude urban areas and croplands from the analysis.
 
 ## Overview
 
-FireDPy performs the following operations:
+firedpy-layer performs the following operations:
 
 1. Creates a land cover mask from PROBAV land cover data, marking urban areas and croplands as 0 and other land cover types as 1
 2. Extends the land cover mask to include polar regions
